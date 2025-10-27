@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "price": 59.99,
+    "brand": "SoundMax",
+    "rating": 4.5,
+    "stock": 120,
+    "description": "Over-ear wireless headphones with noise cancellation and 20-hour battery life.",
+    "image": "https://images.pexels.com/photos/6889216/pexels-photo-6889216.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Smart LED TV 43-inch",
+    "category": "Electronics",
+    "price": 379.99,
+    "brand": "ViewTech",
+    "rating": 4.6,
+    "stock": 45,
+    "description": "Full HD smart LED TV with built-in streaming apps and voice control.",
+    "image": "https://images.pexels.com/photos/4107149/pexels-photo-4107149.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "category": "Footwear",
+    "price": 89.99,
+    "brand": "Sprint",
+    "rating": 4.4,
+    "stock": 200,
+    "description": "Lightweight and comfortable running shoes with breathable mesh upper.",
+    "image": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Men's Casual Shirt",
+    "category": "Fashion",
+    "price": 29.99,
+    "brand": "UrbanWear",
+    "rating": 4.1,
+    "stock": 310,
+    "description": "Cotton casual shirt with slim fit and button-down design.",
+    "image": "https://images.pexels.com/photos/15445847/pexels-photo-15445847.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "4K Action Camera",
+    "category": "Electronics",
+    "price": 149.99,
+    "brand": "GoShot",
+    "rating": 4.3,
+    "stock": 80,
+    "description": "Compact waterproof action camera supporting 4K recording and Wi-Fi.",
+    "image": "https://images.pexels.com/photos/27528409/pexels-photo-27528409.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "price": 19.99,
+    "brand": "AquaPure",
+    "rating": 4.8,
+    "stock": 250,
+    "description": "Insulated bottle keeps beverages hot or cold for up to 12 hours.",
+    "image": "https://images.pexels.com/photos/9943322/pexels-photo-9943322.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Yoga Mat",
+    "category": "Sports",
+    "price": 24.99,
+    "brand": "FitZone",
+    "rating": 4.6,
+    "stock": 160,
+    "description": "Non-slip yoga mat made of eco-friendly material for better grip.",
+    "image": "https://images.pexels.com/photos/4325439/pexels-photo-4325439.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Gaming Mouse",
+    "category": "Computers",
+    "price": 39.99,
+    "brand": "ProGamer",
+    "rating": 4.7,
+    "stock": 95,
+    "description": "Ergonomic gaming mouse with RGB lighting and 8 programmable buttons.",
+    "image": "https://images.pexels.com/photos/29017683/pexels-photo-29017683.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Leather Wallet",
+    "category": "Accessories",
+    "price": 34.99,
+    "brand": "CraftedEdge",
+    "rating": 4.4,
+    "stock": 140,
+    "description": "Genuine leather wallet with RFID protection and 8 card slots.",
+    "image": "https://images.pexels.com/photos/4512814/pexels-photo-4512814.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Portable Power Bank 20000mAh",
+    "category": "Electronics",
+    "price": 49.99,
+    "brand": "VoltX",
+    "rating": 4.5,
+    "stock": 180,
+    "description": "High-capacity power bank with dual USB output and fast charging.",
+    "image": "https://images.pexels.com/photos/10104320/pexels-photo-10104320.jpeg"
+  }
+]
