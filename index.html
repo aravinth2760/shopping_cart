@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <!-- Poppins Font -->
-    <!-- Bootstrap 5 CSS -->
-    <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css" />
-    <title>Shopping Cart</title>
-  </head>
-  <body class="bg-light">
-    <header class="bg-primary p-4 text-white shadow-lg">
-      <div class="container-lg d-flex justify-content-between">
-        <p class="m-0 header-text">Shopping Cart</p>
-        <p class="m-0" id="cartCount">Cart [0]</p>
-      </div>
-    </header>
-    <main class="container-lg d-flex flex-wrap" id="cartItem"></main>
-    <footer></footer>
-    <script src="app.js"></script>
 
-    <!-- Bootstrap 5 JS bundle (includes Popper) -->
-    <script src="library/bootstrap/bootstrap.bundle.min.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/fonts/poppins.css"> <!-- Poppins Font -->
+  <link rel="stylesheet" href="library/bootstrap/bootstrap.min.css" /> <!-- Bootstrap 5 CSS -->
+  <title>Shopping Cart</title>
+  <script src="library/bootstrap/bootstrap.bundle.min.js"></script> <!-- Bootstrap 5 JS bundle (includes Popper) -->
+</head>
+
+<body class="bg-light">
+  <header class="bg-primary p-4 text-white shadow-lg">
+    <div class="container-lg d-flex justify-content-between">
+      <p class="m-0 header-text">Shopping Cart</p>
+      <p class="m-0" id="cartCount"></p>
+    </div>
+  </header>
+
+  <main class="container-lg d-flex flex-wrap" id="homePage"></main>
+  <main class="container-lg d-none" id="cartPage"></main>
+
+  <script type="module" src="app.js"></script>
+
+</body>
+
 </html>

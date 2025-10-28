@@ -20,6 +20,13 @@ html,body{
   margin: 10px;
 }
 
+#cartCount{
+  cursor: pointer;
+}
+#cartCount:hover{
+  opacity: 0.8;
+}
+
 /* For tablets and below */
 @media (max-width: 992px) {
   .card {
