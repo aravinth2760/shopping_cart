@@ -1,4 +1,5 @@
-import { HomePage } from "./src/js/home.js";
+import { HomePage } from "./src/js/homePage.js";
+import { navigate } from "./src/custom/navigate.js";
 
 (async () => {
     await fetch('./data.json').then((res) => {
@@ -6,6 +7,7 @@ import { HomePage } from "./src/js/home.js";
             res.json().then((data) => {
                 const homePage = new HomePage(data);
                 window.addToCart = homePage.addToCart.bind(homePage);
+                navigate()
             });
         }
     }).catch((error) => console.log(error));

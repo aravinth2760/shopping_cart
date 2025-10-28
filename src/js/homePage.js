@@ -1,14 +1,12 @@
 import card from "../custom/card.js";
+import { addToCartItem ,getCartCount} from "../custom/cart.js";
 
 export class HomePage {
     #cartBtn = document.getElementById('cartCount');
-    #homePage = document.getElementById('homePage');
-    #cartPage = document.getElementById('cartPage');
+
     constructor(productLists) {
         this.productLists = productLists;
-        this.cartItems = [];
         this.#viewProduct();
-        this.#navigatePage();
     }
 
     #viewProduct() {
@@ -20,7 +18,7 @@ export class HomePage {
         const product = this.productLists.find((item) => item.id == productId);
         if (!product) return;
 
-        this.cartItems.push(product);
+        addToCartItem(product);
         const button = document.getElementById(product.id);
         button.disabled = true;
         this.#updateCartCount();
@@ -28,15 +26,7 @@ export class HomePage {
 
     #updateCartCount() {
         if (this.#cartBtn) {
-            this.#cartBtn.innerHTML = `Cart [${this.cartItems.length}]`;
+            this.#cartBtn.innerHTML = `Cart [${getCartCount()}]`;
         }
-    }
-
-    #navigatePage(){
-        this.#cartBtn.addEventListener('click',()=>{
-            this.#homePage.classList.add('d-none');   
-            this.#cartPage.classList.remove('d-none');
-            this.#cartBtn.innerHTML = 'Home'; 
-        });
     }
 }
