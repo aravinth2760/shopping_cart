@@ -1,5 +1,5 @@
 import card from "../custom/card.js";
-import { addToCartItem ,getCartCount} from "../custom/cart.js";
+import { addToCartItem, getCartCount, updateTotalPrice } from "../custom/cart.js";
 
 export class HomePage {
     #cartBtn = document.getElementById('cartCount');
@@ -18,9 +18,8 @@ export class HomePage {
         const product = this.productLists.find((item) => item.id == productId);
         if (!product) return;
 
-        addToCartItem(product);
+        addToCartItem({ ...product, purchaseCount: 1 });
         const button = document.getElementById(product.id);
-        button.disabled = true;
         this.#updateCartCount();
     }
 

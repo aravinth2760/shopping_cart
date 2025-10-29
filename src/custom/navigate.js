@@ -11,6 +11,7 @@ export const navigate = () => {
             navBtn.innerHTML = `Cart[${getCartCount()}]`;
             homePage.classList.remove('d-none');
             cartPage.classList.add('d-none');
+            cartPage.innerHTML = '';
         } else {
             navBtn.innerHTML = 'Home';
             homePage.classList.add('d-none');
