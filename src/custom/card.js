@@ -1,6 +1,6 @@
 const card = (lists) => {
     const homePageId = document.getElementById('homePage');
-    lists.forEach(item => {
+    lists.forEach((item) => {
         const card = document.createElement('div');
         card.className = 'card m-sm-1 m-md-2 m-lg-3';
         card.innerHTML = `
@@ -8,7 +8,7 @@ const card = (lists) => {
         <div class="card-body">
             <div class="d-flex justify-content-between align-items-center">
             <h6 class="card-title m-0">${item.name}</h6>
-            <button type="button" id="${item.id}" onclick="addToCart(${item.id})" class="btn btn-sm m-0"
+            <button type="button" id="addToCartBtn${item.id}" onclick="addToCart(${item.id})" class="btn btn-sm m-0"
                 data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"
                 data-bs-title="Add To Cart.">
                 <img src="./assets/icons/add-shopping-cart.png" width="28px" />
