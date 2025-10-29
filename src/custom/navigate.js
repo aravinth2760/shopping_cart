@@ -1,5 +1,5 @@
 import CartPage from "../js/cartPage.js";
-import { getCartCount } from "./cart.js";
+import { getCartCount, updateTotalPrice } from "./cart.js";
 
 export const navigate = () => {
     const navBtn = document.getElementById('cartCount');
@@ -18,5 +18,6 @@ export const navigate = () => {
             cartPage.classList.remove('d-none');
             new CartPage();
         }
+        updateTotalPrice(0);
     })
 }
